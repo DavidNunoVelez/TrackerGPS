@@ -24,10 +24,11 @@
 		2CB0CC752045FE3D00C0A4C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0CC742045FE3D00C0A4C2 /* GoogleService-Info.plist */; };
 		2CB0CC772046042700C0A4C2 /* animacionPulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0CC762046042700C0A4C2 /* animacionPulsar.swift */; };
 		2CEBBD6C201B84BD00189B1B /* VistaMarchando.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBBD6B201B84BD00189B1B /* VistaMarchando.swift */; };
-		DC65C6B504D2A6A9C3F75852 /* Pods_TrackerGPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EAC5A6F569229CF0E42AC4 /* Pods_TrackerGPS.framework */; };
+		6D0CF4C5D711681822DF2D8F /* Pods_TrackerGPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00534A719E2301FF914A520B /* Pods_TrackerGPS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00534A719E2301FF914A520B /* Pods_TrackerGPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackerGPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02255BC0202CC7CA0042B863 /* VistaDetalles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDetalles.swift; sourceTree = "<group>"; };
 		0293AAA620238FA7000E4A6C /* Recursos de imagenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Recursos de imagenes"; sourceTree = "<group>"; };
 		0293AAA8202391F4000E4A6C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -47,9 +48,8 @@
 		2CB0CC742045FE3D00C0A4C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CB0CC762046042700C0A4C2 /* animacionPulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animacionPulsar.swift; sourceTree = "<group>"; };
 		2CEBBD6B201B84BD00189B1B /* VistaMarchando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMarchando.swift; sourceTree = "<group>"; };
-		A7802CE188FD9F1C23B53FE8 /* Pods-TrackerGPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerGPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS.release.xcconfig"; sourceTree = "<group>"; };
-		C5EAC5A6F569229CF0E42AC4 /* Pods_TrackerGPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackerGPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E039CCF5587BD37353B72005 /* Pods-TrackerGPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerGPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS.debug.xcconfig"; sourceTree = "<group>"; };
+		8C37955C8B447E89002FE11F /* Pods-TrackerGPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerGPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS.release.xcconfig"; sourceTree = "<group>"; };
+		F0B6CFE33DD684877CD19771 /* Pods-TrackerGPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerGPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			files = (
 				0293AAAB20239204000E4A6C /* MapKit.framework in Frameworks */,
 				0293AAA9202391F4000E4A6C /* CoreLocation.framework in Frameworks */,
-				DC65C6B504D2A6A9C3F75852 /* Pods_TrackerGPS.framework in Frameworks */,
+				6D0CF4C5D711681822DF2D8F /* Pods_TrackerGPS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +71,9 @@
 			children = (
 				2C3D4D9E2011659100B30409 /* TrackerGPS */,
 				2C3D4D9D2011659100B30409 /* Products */,
-				5D77D04E65334CA19FBB25B9 /* Pods */,
 				D4986676F5B59A97D23464A3 /* Frameworks */,
 				2CFAAFFF203DE05400D013BB /* Recovered References */,
+				E396897B2CABB5635C7FE359 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,23 +115,23 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		5D77D04E65334CA19FBB25B9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E039CCF5587BD37353B72005 /* Pods-TrackerGPS.debug.xcconfig */,
-				A7802CE188FD9F1C23B53FE8 /* Pods-TrackerGPS.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D4986676F5B59A97D23464A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0293AAAA20239204000E4A6C /* MapKit.framework */,
 				0293AAA8202391F4000E4A6C /* CoreLocation.framework */,
-				C5EAC5A6F569229CF0E42AC4 /* Pods_TrackerGPS.framework */,
+				00534A719E2301FF914A520B /* Pods_TrackerGPS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E396897B2CABB5635C7FE359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B6CFE33DD684877CD19771 /* Pods-TrackerGPS.debug.xcconfig */,
+				8C37955C8B447E89002FE11F /* Pods-TrackerGPS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,12 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C3D4DAE2011659100B30409 /* Build configuration list for PBXNativeTarget "TrackerGPS" */;
 			buildPhases = (
-				F850B9E50BE2A42D4EAB8ED9 /* [CP] Check Pods Manifest.lock */,
+				7AAE59906BB3E4BAFEDE773E /* [CP] Check Pods Manifest.lock */,
 				2C3D4D982011659100B30409 /* Sources */,
 				2C3D4D992011659100B30409 /* Frameworks */,
 				2C3D4D9A2011659100B30409 /* Resources */,
-				AEF117A030C9C0638864877E /* [CP] Embed Pods Frameworks */,
-				D13EA09DFA20273B0B54A87B /* [CP] Copy Pods Resources */,
+				84CEBC0DA624DA2CB37EE78F /* [CP] Embed Pods Frameworks */,
+				AC4C34F866DD6ECA3D592270 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +207,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AEF117A030C9C0638864877E /* [CP] Embed Pods Frameworks */ = {
+		7AAE59906BB3E4BAFEDE773E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackerGPS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CEBC0DA624DA2CB37EE78F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,7 +263,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D13EA09DFA20273B0B54A87B /* [CP] Copy Pods Resources */ = {
+		AC4C34F866DD6ECA3D592270 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,24 +276,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackerGPS/Pods-TrackerGPS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F850B9E50BE2A42D4EAB8ED9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrackerGPS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -429,16 +429,18 @@
 		};
 		2C3D4DAF2011659100B30409 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E039CCF5587BD37353B72005 /* Pods-TrackerGPS.debug.xcconfig */;
+			baseConfigurationReference = F0B6CFE33DD684877CD19771 /* Pods-TrackerGPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7M2NE9V99T;
+				DEVELOPMENT_TEAM = WD82W58KAH;
 				INFOPLIST_FILE = TrackerGPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = egibide.TrackerGPS;
+				PRODUCT_BUNDLE_IDENTIFIER = TrackerGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,16 +448,18 @@
 		};
 		2C3D4DB02011659100B30409 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7802CE188FD9F1C23B53FE8 /* Pods-TrackerGPS.release.xcconfig */;
+			baseConfigurationReference = 8C37955C8B447E89002FE11F /* Pods-TrackerGPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7M2NE9V99T;
+				DEVELOPMENT_TEAM = WD82W58KAH;
 				INFOPLIST_FILE = TrackerGPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = egibide.TrackerGPS;
+				PRODUCT_BUNDLE_IDENTIFIER = TrackerGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
